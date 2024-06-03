@@ -1,1 +1,24 @@
 initial
+
+// 1 Pengenalan
+- React adalah sebuah library JS untuk membuat antarmuka aplikasi
+- React bukan sebuah framework
+- dibuat 2011 oleh Jordan Walke dari FB 
+- awal namanya FaxJS dan sudah tidak di support terakhir 2017 commit, terinspirasi dari XHP yang merupakan framework berbasis komponen
+- Beauty of React : membangun komponen yang merepresentasikan bagian dari sebuah UI yang mana dapat di-reusable
+- JS function yang me-return nilai berupa HTML (yang sebenarnya JS function itu tidak bisa me-return nilai berupa HTML)
+- sehingga muncullah sebuah sintaks spesial yang bernama JSX (JS XML) yang mampu mengembalikan nilai berupa HTML
+- Reusable, Kode Mudah Dibaca
+- props, mapping
+- mapping -> hasilnya akan iterasi 
+- Kenapa React? React menjadi populer bukan hanya karena dirinya sendiri namun karena ekosistem pendukungnya yang sangat bervariatif.
+- Ekosistem React diantaranya : SSR server side rendering, State Management pakai Redux, Testing pakai Jest, Mobile App pakai React Native
+- Kenapa React disebut library bukan Framework? - karena ada banyak pilihan untuk melakukan sesuatu dan kita harus memilih tools (package) sendiri dan membuat design system yang tepat untuk proyek tertentu.
+- kita tentukan projeknya apa dulu, butuh library apa aja? testing pakai library apa, ssr pakai library apa dst...
+- maka dari itu React tidak bisa disebut sebagai framework, karena masih ada ketergantungan dengan tools lain untuk membangun sebuah projek dan membuat design system yang tepat.
+- walaupun React punya keterbatasan, akan tetapi ekosistem yang dimiliki sangatlah mendukung.
+- Butuh Static Site? Pakai Gatsby.js
+- Butuh Server Side Rendering? Pakai Next.js
+- Butuh State Management? Pakai Redux
+- Mau bikin Mobile App? Pakai React Native (RN itu sintaksnya sangat mirip dengan React)
+- Kenapa belajar React? High Demand untuk FE dev
